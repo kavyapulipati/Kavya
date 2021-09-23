@@ -6,7 +6,7 @@ public class Operators {
         int b = 5;
         int c = 16;
 
-        if(c>(a+b))
+        if (c > (a + b))
             System.out.println("c greater than a+b ");
         else
             System.out.println("c not greater than a+b ");
