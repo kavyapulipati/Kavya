@@ -5,7 +5,13 @@ class Practice {
     }
 
     private static void practiceIfElse2() {
-
+       int choclates = 15;
+       int iceCreams = 20;
+       int balls     = 50;
+       if (balls > choclates + iceCreams)
+           System.out.println("balls greater than choclates + iceCreams");
+       else
+           System.out.println("balls not greater than choclates + iceCreams");
     }
 
     private static void practiceIfElse() {
