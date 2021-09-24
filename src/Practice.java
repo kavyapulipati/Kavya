@@ -5,11 +5,30 @@ class Practice {
         practiceIfElse3();
         practiceDivision();
         practiceSwitch();
+        explain("Ears");
     }
+
+    private static void explain(String part) {
+        switch (part) {
+            case "Eyes":
+                System.out.println("Body part responsible for seeing world.");
+                break;
+            case "Nose":
+                System.out.println("Body part responsible for smelling surrounding");
+                break;
+            case "Ears":
+                System.out.println("Body part responsible for hearing sounds");
+                break;
+
+            default:
+                System.out.println("Body part not known");
+        }
+    }
+
 
     private static void practiceSwitch() {
         String branch = "CIVIL";
-        switch (branch){
+        switch (branch) {
             case "CSE":
                 System.out.println("CSE has ds, c++, oops subjects");
                 break;
@@ -27,12 +46,12 @@ class Practice {
     private static void practiceDivision() {
         int x = 15;
         int y = 3;
-            System.out.println(" division of x / y = " + division(x, y));
+        System.out.println(" division of x / y = " + division(x, y));
     }
 
     private static int division(int x, int y) {
         int c = x / y;
-         return c;
+        return c;
     }
 
     private static void practiceIfElse3() {
