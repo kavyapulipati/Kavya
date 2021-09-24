@@ -3,6 +3,18 @@ class Practice {
         practiceIfElse();
         practiceIfElse2();
         practiceIfElse3();
+        practiceDivision();
+    }
+
+    private static void practiceDivision() {
+        int x = 15;
+        int y = 3;
+            System.out.println(" division of x / y = " + division(x, y));
+    }
+
+    private static int division(int x, int y) {
+        int c = x / y;
+         return c;
     }
 
     private static void practiceIfElse3() {
