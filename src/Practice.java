@@ -4,6 +4,24 @@ class Practice {
         practiceIfElse2();
         practiceIfElse3();
         practiceDivision();
+        practiceSwitch();
+    }
+
+    private static void practiceSwitch() {
+        String branch = "CIVIL";
+        switch (branch){
+            case "CSE":
+                System.out.println("CSE has ds, c++, oops subjects");
+                break;
+            case "ECE":
+                System.out.println("ECE has de, analog, labs subjects");
+                break;
+            case "EEE":
+                System.out.println("EEE has phy, circuits, grid subjects");
+                break;
+            default:
+                System.out.println("Every branch has phy,c++, m1 subjects");
+        }
     }
 
     private static void practiceDivision() {
