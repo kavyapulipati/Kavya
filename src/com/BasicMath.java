@@ -5,7 +5,7 @@ public class BasicMath {
         BasicMath basicMath = new BasicMath();
 
         basicMath.isEvenNumber(24);
-        basicMath.isEvenNumber(230);
+        basicMath.isEvenNumber(0);
         basicMath.isEvenNumber(-30);
         basicMath.isEvenNumber(-35);
         basicMath.isOddNumber(56);
