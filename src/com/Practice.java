@@ -1,3 +1,5 @@
+package com;
+
 class Practice {
     public static void main(String[] args) {
         practiceIfElse();
@@ -6,6 +8,7 @@ class Practice {
         practiceDivision();
         practiceSwitch();
         explain("Ears");
+        explain("Eyes");
     }
 
     private static void explain(String part) {
