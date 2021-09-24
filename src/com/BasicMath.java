@@ -15,19 +15,18 @@ public class BasicMath {
     }
 
     private void isOddNumber(int i) {
-        if(i % 2 != 0 )
-            System.out.println(i+ " is Odd Number");
+        if (i % 2 != 0)
+            System.out.println(i + " is Odd Number");
         else
-            System.out.println(i+ " is not Odd Number");
+            System.out.println(i + " is not Odd Number");
 
     }
 
     private void isEvenNumber(int i) {
-        if(i % 2 == 0)
-            System.out.println(i+ " is Even Number");
+        if (i % 2 == 0)
+            System.out.println(i + " is Even Number");
         else
-            System.out.println(i+ " is not Even Number");
-
+            System.out.println(i + " is not Even Number");
 
 
     }
